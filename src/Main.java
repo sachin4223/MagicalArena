@@ -26,7 +26,7 @@ public class Main {
         scanner.close();
     }
 
-    private static int getPositiveInteger(Scanner scanner, String attributeName) {
+    public static int getPositiveInteger(Scanner scanner, String attributeName) {
         int value;
         while (true) {
             System.out.print(attributeName + ": ");
